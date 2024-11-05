@@ -1,11 +1,12 @@
-import { BackgroundLines } from "@/components/background-lines";
-import { FloatingDockDemo } from "@/components/navbar";
+
+import { Card } from "@/components/card";
+
 
 
 export default function Home() {
   return (
-    <div >
-      <FloatingDockDemo />
+    <div className="hero min-h-screen bg-slate-600">
+      <Card />
       
     </div>
   );

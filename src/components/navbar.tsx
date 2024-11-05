@@ -12,7 +12,7 @@ import {
 } from "@tabler/icons-react";
 import Image from "next/image";
 
-export function FloatingDockDemo() {
+export function Navbar() {
   const links = [
     {
       title: "Home",
@@ -72,7 +72,7 @@ export function FloatingDockDemo() {
     },
   ];
   return (
-    <div className="flex items-center justify-center h-[35rem] w-full">
+    <div className="flex fixed p-14 h-[10rem] bg-transparent w-full">
       <FloatingDock
         mobileClassName="translate-y-20" // only for demo, remove for production
         items={links}
